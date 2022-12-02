@@ -6,3 +6,16 @@ $primary: #0e5b83;
 
     text-transform: uppercase;
 }
+
+footer ul {
+    list-style-type: none;
+    padding: 0
+}
+footer ul>li {
+    text-decoration: none;
+}
+
+footer h5 {
+    border-bottom: solid $light;
+    padding-bottom: 0.5rem
+}
