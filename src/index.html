@@ -1,16 +1,123 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Nathan Vanier</title>
   </head>
   <body>
-    <div class="container py-4 px-3 mx-auto">
-      <h1>Hello, Bootstrap and Vite!</h1>
-      <button class="btn btn-primary">Primary button</button>
-      <img src="./img/nathan_foto.png" />
-    </div>
+    <!--  -->
+    <!-- INICIO NAVBAR -->
+    <!--  -->
+    <nav class="navbar navbar-dark navbar-expand-lg bg-primary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="./img/nathan_logo.png" /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"
+                >Pagina Inicial</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Sobre</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Serviços</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Livros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Conteúdo</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Contato</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!--  -->
+    <!-- FIM NAVBAR -->
+    <!--  -->
+    <!--  -->
+    <!-- INICIO HOME -->
+    <!--  -->
+    <section id="home" class="container">
+      <div class="row py-5">
+        <div class="col-lg-6 d-flex">
+          <img
+            src="./img/nathan_foto.png"
+            class="img-fluid rounded-circle mx-auto"
+            style="max-width: 75%"
+            alt=""
+          />
+        </div>
+        <div class="col-lg-6 text-center mt-4">
+          <h1>Nathan Levien Vanier</h1>
+          <p>
+            Professor e pesquisador na Faculdade de Agronomia Eliseu Maciel.
+            Ministra aulas, cursos e palestras na área de pós-colheita,
+            industrialização e qualidade de grãos. Realiza pesquisas voltadas
+            para secagem, armazenamento e industrialização de arroz, cevada,
+            feijão, milho, soja e trigo, além de estudar fatores relacionadas à
+            etapa de produção que interferem na qualidade dos grãos. Na
+            extensão, auxilia produtores e indústrias na melhoria da qualidade
+            de produtos e processos. É Editor Associado do periódico Cereal
+            Chemistry e coordenador de projeto de internacionalização da
+            pós-graduação, financiado pela FAPERGS, com ênfase no
+            desenvolvimento de ciência, tecnologia e inovação em pós-colheita,
+            industrialização e qualidade de arroz.
+          </p>
+          <button type="button" class="btn btn-primary mt-5">
+            Entre em contato
+          </button>
+        </div>
+      </div>
+    </section>
+    <!--  -->
+    <!-- FIM HOME -->
+    <!--  -->
+    <!--  -->
+    <!-- INICIO SOBRE -->
+    <!--  -->
+    <section id="sobre" class="bg-primary text-light py-5 text-center">
+      <div class="container">
+        <h1>Sobre</h1>
+        <p>
+          Engenheiro Agrônomo graduado na Faculdade de Agronomia "Eliseu Maciel"
+          (FAEM) da Universidade Federal de Pelotas (UFPel). Mestre e Doutor em
+          Ciência e Tecnologia de Alimentos pelo Programa de Pós-Graduação em
+          Ciência e Tecnologia de Alimentos (PPGCTA) do DCTA-FAEM-UFPel. É
+          Professor Adjunto do Departamento de Ciência e Tecnologia
+          Agroindustrial da FAEM-UFPel. É consultor Ad Hoc da Associação
+          Brasileira das Indústrias de Arroz (ABIARROZ) e ministra cursos,
+          palestras e treinamentos na área de pós-colheita, industrialização e
+          qualidade de grãos. É instrutor habilitado pelo Ministério da
+          Agricultura, Pecuária e Abastecimento para formação de classificadores
+          oficiais de arroz, feijão e soja. Na pesquisa, atualmente coordena
+          projeto de internacionalização da pós-graduação com foco no
+          desenvolvimento de ciência, tecnologia e inovação no setor orizícola,
+          com recursos da Fundação de Amparo à Pesquisa do Estado do Rio Grande
+          do Sul (FAPERGS). É Editor Associado do periódico Cereal Chemistry.
+        </p>
+      </div>
+    </section>
+    <!--  -->
+    <!-- FIM SOBRE -->
+    <!--  -->
     <script type="module" src="./js/main.js"></script>
   </body>
 </html>

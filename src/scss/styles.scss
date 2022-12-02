@@ -2,3 +2,7 @@ $primary: #0e5b83;
 // Import all of Bootstrap's CSS
 @import "~bootstrap/scss/bootstrap";
 
+.nav-link {
+
+    text-transform: uppercase;
+}
