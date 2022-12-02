@@ -3,15 +3,18 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-    "scripts": {
-    "dev": "vite", 
-    "build": "vite build", 
-    "preview": "vite preview" 
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "predeploy": "npm run build -- --base=/nathan-personal-website-bootstrap/",
+    "deploy": "gh-pages -d dist"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "gh-pages": "^4.0.0",
     "sass": "^1.56.1",
     "vite": "^3.2.4"
   },
