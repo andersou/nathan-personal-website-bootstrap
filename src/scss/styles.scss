@@ -12,10 +12,29 @@ footer ul {
     padding: 0
 }
 footer ul>li {
-    text-decoration: none;
+    a {
+        text-decoration: none;
+
+    }
 }
 
 footer h5 {
     border-bottom: solid $light;
     padding-bottom: 0.5rem
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
+html:focus-within {
+    scroll-behavior: smooth;
+  }
+
+body {
+    position: relative;
+  }
+
+  :target {
+    scroll-margin-top: 102px;
+  }

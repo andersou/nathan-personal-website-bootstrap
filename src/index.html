@@ -5,11 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Nathan Vanier</title>
   </head>
-  <body>
+  <body data-bs-spy="scroll" data-bs-method="position" data-bs-offset="105" data-bs-target="#navbarSupportedContent">
     <!--  -->
     <!-- INICIO NAVBAR -->
     <!--  -->
-    <nav class="navbar navbar-dark navbar-expand-lg bg-primary">
+    <nav class="navbar navbar-dark navbar-expand-lg bg-primary sticky-top ">
       <div class="container-fluid">
         <a class="navbar-brand" href="#"><img src="./img/nathan_logo.png" /></a>
         <button
@@ -26,24 +26,24 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#"
-                >Pagina Inicial</a
+              <a class="nav-link " aria-current="page" href="#home"
+                >Inicio</a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="#">Sobre</a>
+              <a class="nav-link " href="#sobre">Sobre</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="#">Serviços</a>
+              <a class="nav-link " href="#servicos">Serviços</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="#">Livros</a>
+              <a class="nav-link " href="#livros">Livros</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="#">Conteúdo</a>
+              <a class="nav-link " href="#blog">Blog</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="#">Contato</a>
+              <a class="nav-link " href="#contato">Contato</a>
             </li>
           </ul>
         </div>
@@ -227,7 +227,7 @@
           <div class="col-lg-6">
             <div
               id="carouselExampleIndicators"
-              class="carousel slide"
+              class="carousel slide mt-4"
               data-bs-ride="true"
             >
               <div class="carousel-indicators">
@@ -328,10 +328,11 @@
           <div class="col-md-4">
             <h5>Mapa do site</h5>
             <ul>
-              <li>Sobre</li>
-              <li>Serviços</li>
-              <li>Livros</li>
-              <li>Blog</li>
+              <li><a class="link-light" href="#home">Inicio</a></li>
+              <li><a class="link-light" href="#sobre">Sobre</a></li>
+              <li><a class="link-light" href="#servicos">Serviços</a></li>
+              <li><a class="link-light" href="#livros">Livros</a></li>
+              <li><a class="link-light" href="#blog">Blog</a></li>
             </ul>
           </div>
           <div class="col-md-4">
@@ -342,7 +343,7 @@
               <li>YouTube</li>
             </ul>
           </div>
-          <div class="col-md-4">
+          <div id="contato" class="col-md-4">
             <h5>Informações de Contato</h5>
             <ul>
               <li>nathanvanier@gmail.com</li>
