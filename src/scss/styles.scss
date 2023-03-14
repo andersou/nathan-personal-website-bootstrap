@@ -1,26 +1,27 @@
-$primary: #0e5b83;
+$primary: #143d6a;
 // Import all of Bootstrap's CSS
 @import "~bootstrap/scss/bootstrap";
 
 .nav-link {
 
-    text-transform: uppercase;
+  text-transform: uppercase;
 }
 
 footer ul {
-    list-style-type: none;
-    padding: 0
+  list-style-type: none;
+  padding: 0
 }
-footer ul>li {
-    a {
-        text-decoration: none;
 
-    }
+footer ul>li {
+  a {
+    text-decoration: none;
+
+  }
 }
 
 footer h5 {
-    border-bottom: solid $light;
-    padding-bottom: 0.5rem
+  border-bottom: solid $light;
+  padding-bottom: 0.5rem
 }
 
 html {
@@ -28,13 +29,44 @@ html {
 }
 
 html:focus-within {
-    scroll-behavior: smooth;
-  }
+  scroll-behavior: smooth;
+}
 
 body {
-    position: relative;
-  }
+  position: relative;
+}
 
-  :target {
-    scroll-margin-top: 102px;
-  }
+:target {
+  scroll-margin-top: 102px;
+}
+
+
+.img-nathan {
+  filter: drop-shadow(-16px -2px 1px $primary);
+  max-width: 75%;
+  height: max-content;
+}
+
+.custom-shape-divider-top-1678673398 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-top-1678673398 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 150px;
+}
+
+.custom-shape-divider-top-1678673398 .shape-fill {
+  fill: #FFFFFF;
+}
+
+#sobre {
+  position: relative
+}
