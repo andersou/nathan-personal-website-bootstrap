@@ -74,3 +74,9 @@ body {
 .col-card {
   margin-top: 0.8rem;
 }
+
+@include media-breakpoint-down(md) {
+  .custom-shape-divider-top-1678673398 {
+    display: none;
+  }
+}

@@ -1,642 +1,1093 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Nathan Vanier</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"
+    />
+  </head>
 
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Nathan Vanier</title>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
-</head>
-
-<body data-bs-spy="scroll" data-bs-method="position" data-bs-offset="105" data-bs-target="#navbarSupportedContent">
-  <!--  -->
-  <!-- INICIO NAVBAR -->
-  <!--  -->
-  <nav class="navbar navbar-dark navbar-expand-lg bg-primary sticky-top ">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#"><img src="./img/nathan_logo2.png" /></a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link " aria-current="page" href="#home">Inicio</a>
+  <body
+    data-bs-spy="scroll"
+    data-bs-method="position"
+    data-bs-offset="105"
+    data-bs-target="#navbarSupportedContent"
+  >
+    <!--  -->
+    <!-- INICIO NAVBAR -->
+    <!--  -->
+    <nav class="navbar navbar-dark navbar-expand-lg bg-primary sticky-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"
+          ><img src="./img/nathan_logo2.png"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#home">Início</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#sobre">Sobre</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#servicos">Serviços</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#clientes">Clientes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#conteudo">Conteúdo</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contato">Contato</a>
+            </li>
+          </ul>
+          <li class="d-flex justify-content-center">
+            <a href="https://www.instagram.com/nathan.vanier/"
+              ><i
+                class="bi-instagram mx-2"
+                style="font-size: 1.4rem; color: var(--bs-light)"
+              ></i
+            ></a>
+            <a href="https://br.linkedin.com/in/nathanvanier"
+              ><i
+                class="bi-linkedin mx-2"
+                style="font-size: 1.4rem; color: var(--bs-light)"
+              ></i
+            ></a>
+            <a
+              href="https://wa.me/5553981175570?text=Ol%C3%A1%2C%20gostaria%20de%20saber%20mais%20informa%C3%A7%C3%B5es%20sobre%20suas%20consultorias."
+              ><i
+                class="bi-whatsapp mx-2"
+                style="font-size: 1.4rem; color: var(--bs-light)"
+              ></i
+            ></a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link " href="#sobre">Sobre</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link " href="#servicos">Serviços</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link " href="#clientes">Clientes</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link " href="#conteudo">Conteúdo</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link " href="#contato">Contato</a>
-          </li>
-        </ul>
-        <li class="d-flex justify-content-center">
-          <a href="https://www.instagram.com/nathan.vanier/"><i class="bi-instagram mx-2"
-              style="font-size: 1.4rem; color: var(--bs-light);"></i></a>
-          <a href="https://br.linkedin.com/in/nathanvanier"><i class="bi-linkedin mx-2"
-              style="font-size: 1.4rem; color: var(--bs-light);"></i></a>
-          <a
-            href="https://wa.me/5553981175570?text=Ol%C3%A1%2C%20gostaria%20de%20saber%20mais%20informa%C3%A7%C3%B5es%20sobre%20suas%20consultorias."><i
-              class="bi-whatsapp mx-2" style="font-size: 1.4rem; color: var(--bs-light);"></i></a>
-
-        </li>
-      </div>
-    </div>
-  </nav>
-  <!--  -->
-  <!-- FIM NAVBAR -->
-  <!--  -->
-  <!--  -->
-  <!-- INICIO HOME -->
-  <!--  -->
-  <section id="home" class="container">
-    <div class="row py-5">
-      <div class="col-lg-6 d-flex">
-        <img src="./img/nathan_foto-removebg.png" class="img-nathan img-fluid rounded-circle mx-auto" style="" alt="" />
-      </div>
-      <div class="col-lg-6 text-start mt-4">
-        <h1 class="text-center">UM DOS PRINCIPAIS PROFISSIONAIS DA ÁREA
-          DE PÓS-COLHEITA DE GRÃOS DO PAÍS</h1>
-        <p>
-          Com 12 anos de exercício profissional e mais de 15 mil horas entre aulas, consultorias, treinamentos,
-          pesquisas e palestras na área de pós-colheita, industrialização e qualidade de grãos, Nathan Vanier possui
-          consistente embasamento técnico-científico, didática apurada e abordagem prática.
-        </p>
-        <p>
-          É reconhecido pela objetividade e clareza com que soluciona problemas e se comunica, e por perseguir a
-          excelência no que faz.
-        </p>
-        <p>
-          Tem atendido produtores rurais, empresas privadas e cooperativas da área de armazenagem de grãos (arroz,
-          feijão, milho, soja e trigo) e indústrias de arroz do Brasil e do exterior, além de dedicar 20 horas de
-          trabalho semanais à Faculdade de Agronomia Eliseu Maciel da Universidade Federal de Pelotas.
-        </p>
-        <p>
-          É pesquisador nível 1D do CNPq e Editor Associado da Cereal Chemistry.
-        </p>
-        <div class="row">
-          <div class="col"><a type="button" href="#sobre" class="btn btn-primary btn-lg mt-5">
-              Ver Bio
-            </a></div>
-          <div class="col"><a type="button" class="btn btn-primary btn-lg mt-5"
-              href="http://lattes.cnpq.br/9422762071396116">
-              Currículo Lattes
-            </a></div>
         </div>
-
       </div>
-    </div>
-  </section>
-  <!--  -->
-  <!-- FIM HOME -->
-  <!--  -->
-  <!--  -->
-  <!-- INICIO SOBRE -->
-  <!--  -->
-  <section id="sobre" class="bg-primary text-light py-5">
-    <div class="custom-shape-divider-top-1678673398">
-      <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
-        <path d="M649.97 0L550.03 0 599.91 54.12 649.97 0z" class="shape-fill"></path>
-      </svg>
-    </div>
-    <div class="container py-5 text-start">
-      <h1 class="py-4 text-center">Sobre</h1>
-      <p>
-        Eu tinha 17 anos quando me apaixonei pela área de pós-colheita, industrialização e qualidade de grãos.
-        Isso foi logo no
-        primeiro estágio que realizei na Faculdade. Concentrei boa parte de meus estudos e estágios nesta área.
-      </p>
-      <p>
-        Concluí
-        o Curso
-        de Agronomia em 2011, pela FAEM-UFPel. No mesmo ano ingressei no Mestrado do PPGCTA-UFPel e no ano seguinte
-        realizei a
-        transição de nível para o Doutorado, no mesmo Programa.
-      </p>
-      <p>
-        Em 2015, aos 25 anos, conquistei a aprovação em concurso público para professor na mesma faculdade da qual sou
-        egresso,
-        a FAEM-UFPel, e de lá para cá me dediquei às aulas, pesquisas e atividades de extensão da Universidade.
-      </p>
-      <p>
-        A
-        vontade de
-        atuar mais próximo do setor privado me fez alterar o regime de trabalho de 40 horas com dedicação exclusiva (DE)
-        para 20
-        horas sem DE, em 2023.
-      </p>
-      <p>
-        Hoje, aos 33 anos, atuo como professor, pesquisador, consultor e empreendedor.
-      </p>
-    </div>
-  </section>
-  <!--  -->
-  <!-- FIM SOBRE -->
-  <!--  -->
-
-  <!--  -->
-  <!-- INICIO SERVICOS -->
-  <!--  -->
-  <section id="servicos" class="container py-5 text-start">
-    <h1 class="pb-5 text-center">Serviços</h1>
-
-    <div>
-      <div class="row">
-        <div class="col-lg-6">
-          <div id="carousel-treinamentos" class="carousel slide mt-4" data-bs-ride="true">
-            <div class="carousel-indicators">
-              <button type="button" data-bs-target="#carousel-treinamentos" data-bs-slide-to="0" class="active"
-                aria-current="true" aria-label="Slide 1"></button>
-              <button type="button" data-bs-target="#carousel-treinamentos" data-bs-slide-to="1"
-                aria-label="Slide 2"></button>
-              <button type="button" data-bs-target="#carousel-treinamentos" data-bs-slide-to="2"
-                aria-label="Slide 3"></button>
-              <button type="button" data-bs-target="#carousel-treinamentos" data-bs-slide-to="3"
-                aria-label="Slide 4"></button>
-              <button type="button" data-bs-target="#carousel-treinamentos" data-bs-slide-to="4"
-                aria-label="Slide 5"></button>
-              <button type="button" data-bs-target="#carousel-treinamentos" data-bs-slide-to="5"
-                aria-label="Slide 6"></button>
-              <button type="button" data-bs-target="#carousel-treinamentos" data-bs-slide-to="6"
-                aria-label="Slide 7"></button>
-              <!-- <button type="button" data-bs-target="#carousel-treinamentos" data-bs-slide-to="7"
-                aria-label="Slide 8"></button> -->
-            </div>
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="./img/fotos_treinamentos/treinamentos (1).jpeg" class="img-fluid" alt="" />
-              </div>
-              <div class="carousel-item ">
-                <img src="./img/fotos_treinamentos/treinamentos (2).jpeg" class="img-fluid" alt="" />
-              </div>
-              <div class="carousel-item ">
-                <img src="./img/fotos_treinamentos/treinamentos (4).jpeg" class="img-fluid" alt="" />
-              </div>
-              <div class="carousel-item ">
-                <img src="./img/fotos_treinamentos/treinamentos (5).jpeg" class="img-fluid" alt="" />
-              </div>
-              <!-- <div class="carousel-item ">
-                <img src="./img/fotos_treinamentos/treinamentos (6).jpeg" class="img-fluid" alt="" />
-              </div> -->
-              <div class="carousel-item ">
-                <img src="./img/fotos_treinamentos/treinamentos (7).jpeg" class="img-fluid" alt="" />
-              </div>
-              <div class="carousel-item ">
-                <img src="./img/fotos_treinamentos/treinamentos (8).jpeg" class="img-fluid" alt="" />
-              </div>
-              <div class="carousel-item ">
-                <img src="./img/fotos_treinamentos/treinamentos (9).jpeg" class="img-fluid" alt="" />
-              </div>
-
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carousel-treinamentos"
-              data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carousel-treinamentos"
-              data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-          </div>
+    </nav>
+    <!--  -->
+    <!-- FIM NAVBAR -->
+    <!--  -->
+    <!--  -->
+    <!-- INICIO HOME -->
+    <!--  -->
+    <section id="home" class="container">
+      <div class="row py-5">
+        <div class="col-lg-6 d-flex">
+          <img
+            src="./img/nathan_foto-removebg.png"
+            class="img-nathan img-fluid rounded-circle mx-auto"
+            style=""
+            alt=""
+          />
         </div>
-        <div class="col-lg-6">
-          <h2 class="mt-4 text-center">Treinamentos</h2>
-          <p class="pt-3">
-            Duração de 4, 8, 12 ou 16 horas, de acordo com a necessidade do cliente. <br> Para alguns treinamentos são
-            disponibilizadas
-            duas opções: treinamento para líderes, gerentes e/ou diretores; e treinamento geral. <br>
+        <div class="col-lg-6 text-start mt-4">
+          <h1 class="text-center">
+            UM DOS PRINCIPAIS PROFISSIONAIS DA ÁREA DE PÓS-COLHEITA DE GRÃOS DO
+            PAÍS
+          </h1>
+          <p>
+            Com 12 anos de exercício profissional e mais de 15 mil horas entre
+            aulas, consultorias, treinamentos, pesquisas e palestras na área de
+            pós-colheita, industrialização e qualidade de grãos, Nathan Vanier
+            possui consistente embasamento técnico-científico, didática apurada
+            e abordagem prática.
           </p>
           <p>
-            Os principais temas de treinamentos disponibilizados incluem:
+            É reconhecido pela objetividade e clareza com que soluciona
+            problemas e se comunica, e por perseguir a excelência no que faz.
           </p>
-
-          <ul class=" pb-3 text-start">
-            <li>Manejo operacional da recepção, da secagem, do armazenamento e da
-              conservação de grãos</li>
-            <li>Classificação de grãos (comercial e oficial)
-            </li>
-            <li>Controle de qualidade de grãos para armazéns e indústrias</li>
-            <li>Gestão da qualidade de produtos e processos na industrialização de grãos</li>
-            <li>Gerenciamento de riscos e autocontrole em armazéns e indústrias de grãos</li>
-          </ul>
-          <div class="row text-center">
+          <p>
+            Tem atendido produtores rurais, empresas privadas e cooperativas da
+            área de armazenagem de grãos (arroz, feijão, milho, soja e trigo) e
+            indústrias de arroz do Brasil e do exterior, além de dedicar 20
+            horas de trabalho semanais à Faculdade de Agronomia Eliseu Maciel da
+            Universidade Federal de Pelotas.
+          </p>
+          <p>
+            É pesquisador nível 1D do CNPq e Editor Associado da Cereal
+            Chemistry.
+          </p>
+          <div class="row">
             <div class="col">
-
-              <a href="https://wa.me/5553981175570?text=Ol%C3%A1%2C%20gostaria%20de%20saber%20mais%20informa%C3%A7%C3%B5es%20sobre%20treinamentos."
-                class="btn btn-outline-primary">
-                Solicite Orçamento
+              <a
+                type="button"
+                href="#sobre"
+                class="btn btn-primary btn-lg mt-5"
+              >
+                Ver Bio
+              </a>
+            </div>
+            <div class="col">
+              <a
+                type="button"
+                class="btn btn-primary btn-lg mt-5"
+                href="http://lattes.cnpq.br/9422762071396116"
+              >
+                Currículo Lattes
               </a>
             </div>
           </div>
         </div>
       </div>
-
-      <div class="row py-5 flex-lg-row-reverse">
-        <div class="col-lg-6">
-          <div id="carousel-consultoria" class="carousel slide mt-4" data-bs-ride="true">
-            <div class="carousel-indicators">
-              <button type="button" data-bs-target="#carousel-consultoria" data-bs-slide-to="0" class="active"
-                aria-current="true" aria-label="Slide 1"></button>
-              <button type="button" data-bs-target="#carousel-consultoria" data-bs-slide-to="1"
-                aria-label="Slide 2"></button>
-              <button type="button" data-bs-target="#carousel-consultoria" data-bs-slide-to="2"
-                aria-label="Slide 3"></button>
-              <button type="button" data-bs-target="#carousel-consultoria" data-bs-slide-to="3"
-                aria-label="Slide 4"></button>
-              <button type="button" data-bs-target="#carousel-consultoria" data-bs-slide-to="4"
-                aria-label="Slide 5"></button>
-              <button type="button" data-bs-target="#carousel-consultoria" data-bs-slide-to="5"
-                aria-label="Slide 6"></button>
-            </div>
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="./img/fotos_consultorias/consultorias (4).jpeg" class="img-fluid" alt="" />
-              </div>
-              <div class="carousel-item">
-                <img src="./img/fotos_consultorias/consultorias (2).jpeg" class="img-fluid" alt="" />
-              </div>
-              <div class="carousel-item">
-                <img src="./img/fotos_consultorias/consultorias (3).jpeg" class="img-fluid" alt="" />
-              </div>
-              <div class="carousel-item">
-                <img src="./img/fotos_consultorias/consultorias (1).jpeg" class="img-fluid" alt="" />
-              </div>
-              <div class="carousel-item">
-                <img src="./img/fotos_consultorias/consultorias (5).jpeg" class="img-fluid" alt="" />
-              </div>
-              <div class="carousel-item">
-                <img src="./img/fotos_consultorias/consultorias (6).jpeg" class="img-fluid" alt="" />
-              </div>
-
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carousel-consultoria"
-              data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carousel-consultoria"
-              data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-          </div>
-        </div>
-        <div class="col-lg-6">
-          <h2 class="mt-4 text-center">Consultoria</h2>
-          <p class="pt-3">
-            Trabalho personalizado para realizar os ajustes necessários para o crescimento da sua empresa. O plano de
-            consultoria é
-            estruturado conforme a necessidade de cada cliente. Geralmente são elaborados planos anuais que incluem
-            reuniões,
-            visitas, acompanhamento e estruturação de operações e processos, monitoramento periódico in loco e online,
-            treinamento
-            de colaboradores e emissão de relatórios.</p>
-          <p>
-            Principais áreas de consultoria:
-          </p>
-          <ol class="pb-3 text-start">
-            <li>Otimização e gerenciamento dos manejos de segregação, secagem, armazenamento e conservação dos grãos
-            </li>
-            <li>Gestão da armazenagem de grãos</li>
-            <li>Gestão da qualidade de produtos e processos na industrialização de arroz</li>
-            <li>Armazenamento de feijão em atmosfera controlada</li>
-            <li>Autocontrole, gerenciamento de riscos e rastreabilidade de grãos</li>
-          </ol>
-
-          <div class="row text-center">
-            <div class="col"><a
-                href="https://wa.me/5553981175570?text=Ol%C3%A1%2C%20gostaria%20de%20saber%20mais%20informa%C3%A7%C3%B5es%20sobre%20suas%20consultorias."
-                type="button" class="btn btn-outline-primary">
-                Agende uma reunião
-              </a></div>
-            <div class="col"><a type="button" href="https://granosafe.com.br" class="btn btn-outline-primary">
-                Saiba mais
-              </a></div>
-          </div>
-
-        </div>
+    </section>
+    <!--  -->
+    <!-- FIM HOME -->
+    <!--  -->
+    <!--  -->
+    <!-- INICIO SOBRE -->
+    <!--  -->
+    <section id="sobre" class="bg-primary text-light py-5">
+      <div class="custom-shape-divider-top-1678673398">
+        <svg
+          data-name="Layer 1"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 1200 120"
+          preserveAspectRatio="none"
+        >
+          <path
+            d="M649.97 0L550.03 0 599.91 54.12 649.97 0z"
+            class="shape-fill"
+          ></path>
+        </svg>
       </div>
+      <div class="container py-5 text-start">
+        <h1 class="py-4 text-center">Sobre</h1>
+        <p>
+          Eu tinha 17 anos quando me apaixonei pela área de pós-colheita,
+          industrialização e qualidade de grãos. Isso foi logo no primeiro
+          estágio que realizei na Faculdade, no Labgrãos-UFPel, onde permaneci
+          durante todo o período de graduação, pós-graduação e docência. Por lá
+          foram 17 anos! Nas férias sempre busquei realizar estágios
+          extracurriculares. Foram experiências incríveis em indústria de arroz,
+          fazendas e armazéns de soja, milho e feijão. Enfim, desde cedo passei
+          a concentrar boa parte de meus estudos e estágios nesta área.
+        </p>
+        <p>
+          Concluí o Curso de Agronomia em 2011, pela FAEM-UFPel. No mesmo ano
+          ingressei no Mestrado do PPGCTA-UFPel e no ano seguinte realizei a
+          transição de nível para o Doutorado. Na pós-graduação foram ao todo
+          3,5 anos muito intensos, realizando pesquisas, participando e
+          organizando cursos e simpósios promovidos pelo Labgrãos-UFPel e
+          auxiliando professores e colegas. Entre 2013 e 2014 realizei doutorado
+          sanduíche no Departamento de Agricultura dos Estados Unidos.
+        </p>
+        <p>
+          Em 2015, aos 25 anos, conquistei a aprovação em concurso público para
+          professor na mesma Faculdade da qual sou egresso, a FAEM-UFPel, e de
+          lá para cá me dediquei às aulas, pesquisas e atividades de extensão da
+          Universidade. Ao todo contabilizo 70 artigos científicos publicados em
+          revistas internacionais; mais de 30 artigos técnicos em revistas
+          nacionais; mais de 150 participações em bancas de trabalhos de
+          conclusão de curso, seja de graduação ou pós-graduação; mais de 100
+          trabalhos apresentados em congressos; mais de 3000 pessoas treinadas
+          para os temas da pós-colheita através de aulas, cursos e treinamentos
+          na FAEM-UFPel e em empresas. Neste período pude palestrar, apresentar
+          trabalhos ou ministrar treinamentos em diversos estados do país, no
+          Uruguai, nos Estados Unidos, na Holanda e no Japão.
+        </p>
+        <p>
+          A vontade de atuar mais próximo do setor privado me fez alterar o
+          regime de trabalho de 40 horas com dedicação exclusiva (DE) para 20
+          horas sem DE, em 2023. Hoje, aos 33 anos, atuo como consultor,
+          professor, pesquisador e empreendedor. Meu foco é ajudar produtores,
+          empresas privadas de armazenagem e indústrias de grãos a melhor gerir
+          produtos e processos, aumentar a eficiência operacional e reduzir
+          perdas. Como empreendedor sou cofundador da Grano Safe Ag Tech.
+        </p>
+      </div>
+    </section>
+    <!--  -->
+    <!-- FIM SOBRE -->
+    <!--  -->
 
-      <div class="row">
-        <div class="col-lg-6">
+    <!--  -->
+    <!-- INICIO SERVICOS -->
+    <!--  -->
+    <section id="servicos" class="container py-5 text-start">
+      <h1 class="pb-5 text-center">Serviços</h1>
 
-          <div id="carousel-palestras" class="carousel slide mt-4" data-bs-ride="true">
-            <div class="carousel-indicators">
-              <button type="button" data-bs-target="#carousel-palestras" data-bs-slide-to="0" class="active"
-                aria-current="true" aria-label="Slide 1"></button>
-              <button type="button" data-bs-target="#carousel-palestras" data-bs-slide-to="1"
-                aria-label="Slide 2"></button>
-              <button type="button" data-bs-target="#carousel-palestras" data-bs-slide-to="2"
-                aria-label="Slide 3"></button>
-              <button type="button" data-bs-target="#carousel-palestras" data-bs-slide-to="3"
-                aria-label="Slide 4"></button>
-              <!-- <button type="button" data-bs-target="#carousel-palestras" data-bs-slide-to="4"
-                aria-label="Slide 5"></button> -->
-            </div>
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="./img/fotos_palestras/palestra (1).jpeg" class="img-fluid" alt="" />
+      <div>
+        <div class="row">
+          <div class="col-lg-6">
+            <div
+              id="carousel-treinamentos"
+              class="carousel slide mt-4"
+              data-bs-ride="true"
+            >
+              <div class="carousel-indicators">
+                <button
+                  type="button"
+                  data-bs-target="#carousel-treinamentos"
+                  data-bs-slide-to="0"
+                  class="active"
+                  aria-current="true"
+                  aria-label="Slide 1"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carousel-treinamentos"
+                  data-bs-slide-to="1"
+                  aria-label="Slide 2"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carousel-treinamentos"
+                  data-bs-slide-to="2"
+                  aria-label="Slide 3"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carousel-treinamentos"
+                  data-bs-slide-to="3"
+                  aria-label="Slide 4"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carousel-treinamentos"
+                  data-bs-slide-to="4"
+                  aria-label="Slide 5"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carousel-treinamentos"
+                  data-bs-slide-to="5"
+                  aria-label="Slide 6"
+                ></button>
+                <!-- <button
+                  type="button"
+                  data-bs-target="#carousel-treinamentos"
+                  data-bs-slide-to="6"
+                  aria-label="Slide 7"
+                ></button> -->
+                <!-- <button type="button" data-bs-target="#carousel-treinamentos" data-bs-slide-to="7"
+                aria-label="Slide 8"></button> -->
               </div>
-              <!-- <div class="carousel-item">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img
+                    src="./img/fotos_treinamentos/treinamentos (1).jpeg"
+                    class="img-fluid"
+                    alt=""
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="./img/fotos_treinamentos/treinamentos (2).jpeg"
+                    class="img-fluid"
+                    alt=""
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="./img/fotos_treinamentos/treinamentos (4).jpeg"
+                    class="img-fluid"
+                    alt=""
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="./img/fotos_treinamentos/treinamentos (5).jpeg"
+                    class="img-fluid"
+                    alt=""
+                  />
+                </div>
+                <!-- <div class="carousel-item ">
+                <img src="./img/fotos_treinamentos/treinamentos (6).jpeg" class="img-fluid" alt="" />
+              </div> -->
+                <div class="carousel-item">
+                  <img
+                    src="./img/fotos_treinamentos/treinamentos (7).jpeg"
+                    class="img-fluid"
+                    alt=""
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="./img/fotos_treinamentos/treinamentos (8).jpeg"
+                    class="img-fluid"
+                    alt=""
+                  />
+                </div>
+                <!-- <div class="carousel-item">
+                  <img
+                    src="./img/fotos_treinamentos/treinamentos (9).jpeg"
+                    class="img-fluid"
+                    alt=""
+                  />
+                </div> -->
+              </div>
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#carousel-treinamentos"
+                data-bs-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#carousel-treinamentos"
+                data-bs-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <h2 class="mt-4 text-center">Treinamentos</h2>
+            <p class="pt-3">
+              Duração de 4, 8, 12 ou 16 horas, de acordo com a necessidade do
+              cliente. <br />
+              Para alguns treinamentos são disponibilizadas duas opções:
+              treinamento para líderes, gerentes e/ou diretores; e treinamento
+              geral. <br />
+            </p>
+            <p>Os principais temas de treinamentos incluem:</p>
+
+            <ul class="pb-3 text-start">
+              <li>
+                Manejo operacional da recepção, da secagem, do armazenamento e
+                da conservação de grãos
+              </li>
+              <li>Classificação de grãos (comercial e oficial)</li>
+              <li>Controle de qualidade de grãos para armazéns e indústrias</li>
+              <li>
+                Gestão da qualidade de produtos e processos na industrialização
+                de grãos
+              </li>
+              <li>
+                Gerenciamento de riscos e autocontrole em armazéns e indústrias
+                de grãos
+              </li>
+            </ul>
+            <div class="row text-center">
+              <div class="col">
+                <a
+                  href="https://wa.me/5553981175570?text=Ol%C3%A1%2C%20gostaria%20de%20saber%20mais%20informa%C3%A7%C3%B5es%20sobre%20treinamentos."
+                  class="btn btn-outline-primary"
+                >
+                  Solicite Orçamento
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row py-5 flex-lg-row-reverse">
+          <div class="col-lg-6">
+            <div
+              id="carousel-consultoria"
+              class="carousel slide mt-4"
+              data-bs-ride="true"
+            >
+              <div class="carousel-indicators">
+                <button
+                  type="button"
+                  data-bs-target="#carousel-consultoria"
+                  data-bs-slide-to="0"
+                  class="active"
+                  aria-current="true"
+                  aria-label="Slide 1"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carousel-consultoria"
+                  data-bs-slide-to="1"
+                  aria-label="Slide 2"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carousel-consultoria"
+                  data-bs-slide-to="2"
+                  aria-label="Slide 3"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carousel-consultoria"
+                  data-bs-slide-to="3"
+                  aria-label="Slide 4"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carousel-consultoria"
+                  data-bs-slide-to="4"
+                  aria-label="Slide 5"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carousel-consultoria"
+                  data-bs-slide-to="5"
+                  aria-label="Slide 6"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carousel-consultoria"
+                  data-bs-slide-to="6"
+                  aria-label="Slide 7"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carousel-consultoria"
+                  data-bs-slide-to="7"
+                  aria-label="Slide 8"
+                ></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img
+                    src="./img/fotos_consultorias/consultorias (4).jpeg"
+                    class="img-fluid"
+                    alt=""
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="./img/fotos_consultorias/consultorias (2).jpeg"
+                    class="img-fluid"
+                    alt=""
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="./img/fotos_consultorias/consultorias (3).jpeg"
+                    class="img-fluid"
+                    alt=""
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="./img/fotos_consultorias/consultorias (1).jpeg"
+                    class="img-fluid"
+                    alt=""
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="./img/fotos_consultorias/consultorias (5).jpeg"
+                    class="img-fluid"
+                    alt=""
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="./img/fotos_consultorias/consultorias (6).jpeg"
+                    class="img-fluid"
+                    alt=""
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="./img/fotos_consultorias/consultorias (7).jpeg"
+                    class="img-fluid"
+                    alt=""
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="./img/fotos_consultorias/consultorias (8).jpeg"
+                    class="img-fluid"
+                    alt=""
+                  />
+                </div>
+              </div>
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#carousel-consultoria"
+                data-bs-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#carousel-consultoria"
+                data-bs-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <h2 class="mt-4 text-center">Consultoria</h2>
+            <p class="pt-3">
+              Trabalho personalizado para realizar os ajustes necessários para o
+              crescimento da sua empresa. O plano de consultoria é estruturado
+              conforme a necessidade de cada cliente.
+            </p>
+            <p>
+              Geralmente são elaborados planos anuais que incluem reuniões,
+              visitas, acompanhamento e estruturação de operações e processos,
+              monitoramento periódico in loco e online, treinamento de
+              colaboradores e emissão de relatórios.
+            </p>
+            <p>Principais áreas de consultoria:</p>
+            <ol class="pb-3 text-start">
+              <li>
+                Otimização e gerenciamento dos manejos de segregação, secagem,
+                armazenamento e conservação dos grãos
+              </li>
+              <li>Gestão da armazenagem de grãos</li>
+              <li>
+                Gestão da qualidade de produtos e processos na industrialização
+                de arroz
+              </li>
+              <li>Armazenamento de feijão em atmosfera controlada</li>
+              <li>
+                Autocontrole, gerenciamento de riscos e rastreabilidade de grãos
+              </li>
+            </ol>
+
+            <div class="row text-center">
+              <div class="col">
+                <a
+                  href="https://wa.me/5553981175570?text=Ol%C3%A1%2C%20gostaria%20de%20saber%20mais%20informa%C3%A7%C3%B5es%20sobre%20suas%20consultorias."
+                  type="button"
+                  class="btn btn-outline-primary"
+                >
+                  Agende uma reunião
+                </a>
+              </div>
+              <!-- <div class="col">
+                <a
+                  type="button"
+                  href="https://granosafe.com.br"
+                  class="btn btn-outline-primary"
+                >
+                  Saiba mais
+                </a>
+              </div> -->
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-6">
+            <div
+              id="carousel-palestras"
+              class="carousel slide mt-4"
+              data-bs-ride="true"
+            >
+              <div class="carousel-indicators">
+                <button
+                  type="button"
+                  data-bs-target="#carousel-palestras"
+                  data-bs-slide-to="0"
+                  class="active"
+                  aria-current="true"
+                  aria-label="Slide 1"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carousel-palestras"
+                  data-bs-slide-to="1"
+                  aria-label="Slide 2"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carousel-palestras"
+                  data-bs-slide-to="2"
+                  aria-label="Slide 3"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carousel-palestras"
+                  data-bs-slide-to="3"
+                  aria-label="Slide 4"
+                ></button>
+                <!-- <button type="button" data-bs-target="#carousel-palestras" data-bs-slide-to="4"
+                aria-label="Slide 5"></button> -->
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img
+                    src="./img/fotos_palestras/palestra (1).jpeg"
+                    class="img-fluid"
+                    alt=""
+                  />
+                </div>
+                <!-- <div class="carousel-item">
                 <img src="./img/fotos_palestras/palestra (2).jpeg" class="img-fluid" alt="" />
               </div> -->
-              <div class="carousel-item">
-                <img src="./img/fotos_palestras/palestra (3).jpeg" class="img-fluid" alt="" />
+                <div class="carousel-item">
+                  <img
+                    src="./img/fotos_palestras/palestra (3).jpeg"
+                    class="img-fluid"
+                    alt=""
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="./img/fotos_palestras/palestra (4).jpeg"
+                    class="img-fluid"
+                    alt=""
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="./img/fotos_palestras/palestra (5).jpeg"
+                    class="img-fluid"
+                    alt=""
+                  />
+                </div>
               </div>
-              <div class="carousel-item">
-                <img src="./img/fotos_palestras/palestra (4).jpeg" class="img-fluid" alt="" />
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#carousel-palestras"
+                data-bs-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#carousel-palestras"
+                data-bs-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <h2 class="mt-4 text-center">Palestras</h2>
+            <p class="pt-3">
+              Palestras com tempo que pode variar de 30 min a 2 horas,
+              dependendo da situação. Nas palestras “in company”, o conteúdo e a
+              abordagem são ajustados para a realidade do contratante.
+            </p>
+            <p>
+              Palestras para semanas acadêmicas, simpósios, conferências e
+              congressos organizados por instituições públicas de ensino são
+              livres de cobrança. Os temas das palestras são todos aqueles
+              pertencentes às áreas citadas na aba de treinamentos e na aba de
+              consultorias.
+            </p>
+            <div class="pt-3 row text-center">
+              <div class="col">
+                <a
+                  href="https://wa.me/5553981175570?text=Ol%C3%A1%2C%20gostaria%20de%20saber%20mais%20informa%C3%A7%C3%B5es%20sobre%20disponibilidade%20para%20palestras."
+                  class="btn btn-outline-primary"
+                >
+                  Verifique disponibilidade
+                </a>
               </div>
-              <div class="carousel-item">
-                <img src="./img/fotos_palestras/palestra (5).jpeg" class="img-fluid" alt="" />
+              <div class="col">
+                <a
+                  href="https://www.youtube.com/channel/UC5ud4bZQ0lwcEdMedw7s-QQ"
+                  class="btn btn-outline-primary"
+                >
+                  Palestras Online
+                </a>
               </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carousel-palestras"
-              data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carousel-palestras"
-              data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-          </div>
-
-        </div>
-        <div class="col-lg-6">
-          <h2 class="mt-4 text-center">Palestras</h2>
-          <p class="pt-3">
-            Palestras com tempo que pode variar de 30 min a 2 horas, dependendo da situação. Nas palestras “in company”,
-            o conteúdo
-            e a abordagem são ajustados para a realidade do contratante.
-          </p>
-          <p>
-            Palestras para semanas acadêmicas, simpósios,
-            conferências
-            e congressos organizados por instituições públicas de ensino são livres de cobrança.
-            Os temas das palestras são todos aqueles pertencentes às áreas citadas na aba de treinamentos e na aba de
-            consultorias.
-          </p>
-          <div class="pt-3 row text-center">
-            <div class="col"><a
-                href="https://wa.me/5553981175570?text=Ol%C3%A1%2C%20gostaria%20de%20saber%20mais%20informa%C3%A7%C3%B5es%20sobre%20disponibilidade%20para%20palestras."
-                class="btn btn-outline-primary">
-                Verifique disponibilidade
-              </a></div>
-            <div class="col"><a href="https://www.youtube.com/channel/UC5ud4bZQ0lwcEdMedw7s-QQ"
-                class="btn btn-outline-primary">
-                Palestras Online
-              </a></div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
-  <!--  -->
-  <!-- FIM SERVICOS -->
-  <!--  -->
+    </section>
+    <!--  -->
+    <!-- FIM SERVICOS -->
+    <!--  -->
 
-  <!--  -->
-  <!-- INICIO Clientes -->
-  <!--  -->
-  <section id="clientes" class="bg-primary text-light py-5 text-center">
-    <div class="container py-5">
-      <div class="row">
-
-        <div class="col">
-          <div id="carousel-clientes" class="carousel slide mt-4" data-bs-ride="true">
-            <div class="carousel-indicators">
-              <button type="button" data-bs-target="#carousel-clientes" data-bs-slide-to="0" class="active"
-                aria-current="true" aria-label="Slide 1"></button>
-              <button type="button" data-bs-target="#carousel-clientes" data-bs-slide-to="1"
-                aria-label="Slide 2"></button>
-              <button type="button" data-bs-target="#carousel-clientes" data-bs-slide-to="2"
-                aria-label="Slide 3"></button>
+    <!--  -->
+    <!-- INICIO Clientes -->
+    <!--  -->
+    <section id="clientes" class="bg-primary text-light py-5 text-center">
+      <div class="container py-5">
+        <div class="row">
+          <div class="col">
+            <div
+              id="carousel-clientes"
+              class="carousel slide mt-4"
+              data-bs-ride="true"
+            >
+              <div class="carousel-indicators">
+                <button
+                  type="button"
+                  data-bs-target="#carousel-clientes"
+                  data-bs-slide-to="0"
+                  class="active"
+                  aria-current="true"
+                  aria-label="Slide 1"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carousel-clientes"
+                  data-bs-slide-to="1"
+                  aria-label="Slide 2"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carousel-clientes"
+                  data-bs-slide-to="2"
+                  aria-label="Slide 3"
+                ></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">CLIENTE 1</div>
+                <div class="carousel-item">CLIENTE 2</div>
+                <div class="carousel-item">CLIENTE 3</div>
+              </div>
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#carousel-clientes"
+                data-bs-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#carousel-clientes"
+                data-bs-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Next</span>
+              </button>
             </div>
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                CLIENTE 1
-              </div>
-              <div class="carousel-item">
-                CLIENTE 2
-              </div>
-              <div class="carousel-item">
-                CLIENTE 3
-              </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carousel-clientes"
-              data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carousel-clientes"
-              data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
           </div>
         </div>
       </div>
-    </div>
-  </section>
-  <!--  -->
-  <!-- FIM CLIENTES -->
-  <!--  -->
+    </section>
+    <!--  -->
+    <!-- FIM CLIENTES -->
+    <!--  -->
 
-  <!--  -->
-  <!-- INICIO Conteúdo -->
-  <!--  -->
-  <section id="conteudo" class="py-5 text-center">
-    <div class="container py-5">
-      <h1>Conteúdo</h1>
-      <div class="row mt-5">
-        <div class="col-sm-12 col-md-6 col-lg-4 col-card">
-          <div class="card">
-            <div class="card-body">
-              <i class="bi-book mx-2" style="font-size: 3.8rem; color: var(--bs-dark);"></i>
-              <h5 class="card-title">Artigo Científico</h5>
-              <p class="card-text">Cuidados para minimizar perdas no armazenamento de soja</p>
-              <br />
-              <a href="#" class="btn btn-primary">Ler mais</a>
+    <!--  -->
+    <!-- INICIO Conteúdo -->
+    <!--  -->
+    <section id="conteudo" class="py-5 text-center">
+      <div class="container py-5">
+        <h1>Conteúdo</h1>
+        <div class="row mt-5">
+          <div class="col-sm-12 col-md-6 col-lg-4 col-card">
+            <div class="card">
+              <div class="card-body">
+                <i
+                  class="bi-book mx-2"
+                  style="font-size: 3.8rem; color: var(--bs-dark)"
+                ></i>
+                <h5 class="card-title">Artigo Técnico</h5>
+                <p class="card-text">
+                  Cuidados para minimizar perdas no armazenamento de soja
+                </p>
+                <br />
+                <a href="#" class="btn btn-primary">Ler mais</a>
+              </div>
+            </div>
+          </div>
+          <!-- <div class="col-sm-12 col-md-6 col-lg-4 col-card">
+            <div class="card">
+              <div class="card-body">
+                <i
+                  class="bi-book mx-2"
+                  style="font-size: 3.8rem; color: var(--bs-dark)"
+                ></i>
+                <h5 class="card-title">Artigo Técnico</h5>
+                <p class="card-text">
+                  Cuidados para minimizar perdas no armazenamento de soja
+                </p>
+                <br />
+                <a
+                  href="https://www.linkedin.com/pulse/cuidados-para-minimizar-perdas-armazenamento-de-soja-nathan-vanier%3FtrackingId=apvnfBaDT1qgNkQIUPk%252BJw%253D%253D/?trackingId=apvnfBaDT1qgNkQIUPk%2BJw%3D%3D"
+                  class="btn btn-primary"
+                  >Ler mais</a
+                >
+              </div>
+            </div>
+          </div> -->
+          <div class="col-sm-12 col-md-6 col-lg-4 col-card">
+            <div class="card">
+              <div class="card-body">
+                <i
+                  class="bi-book mx-2"
+                  style="font-size: 3.8rem; color: var(--bs-dark)"
+                ></i>
+                <h5 class="card-title">Artigo Técnico</h5>
+                <p class="card-text">
+                  Cuidados operacionais na parboilização de arroz
+                </p>
+                <br />
+                <a
+                  href="https://www.linkedin.com/pulse/cuidados-operacionais-para-potencializar-resultados-na-nathan-vanier%3FtrackingId=c6b8ZhfvRie51IZ0OTnfJw%253D%253D/?trackingId=c6b8ZhfvRie51IZ0OTnfJw%3D%3D"
+                  class="btn btn-primary"
+                  >Ler mais</a
+                >
+              </div>
+            </div>
+          </div>
+          <!-- <div class="col-sm-12 col-md-6 col-lg-4 col-card">
+            <div class="card">
+              <div class="card-body">
+                <i
+                  class="bi-book mx-2"
+                  style="font-size: 3.8rem; color: var(--bs-dark)"
+                ></i>
+                <h5 class="card-title">Artigo Científico</h5>
+                <p class="card-text">Armazenagem de grãos na fazenda</p>
+                <br />
+                <a
+                  href="https://www.linkedin.com/feed/update/urn:li:activity:6986321742839341056/"
+                  class="btn btn-primary"
+                  >Ler mais</a
+                >
+              </div>
+            </div>
+          </div> -->
+          <div class="col-sm-12 col-md-6 col-lg-4 col-card">
+            <div class="card">
+              <div class="card-body">
+                <i
+                  class="bi-book mx-2"
+                  style="font-size: 3.8rem; color: var(--bs-dark)"
+                ></i>
+                <h5 class="card-title">E-Book</h5>
+                <p class="card-text">
+                  PH, defeitos e ocorrência de micotoxinas em trigo
+                </p>
+                <br />
+                <a
+                  href="https://www.linkedin.com/feed/update/urn:li:activity:6973633842804862976/"
+                  class="btn btn-primary"
+                  >Ler mais</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-4 col-card">
+            <div class="card">
+              <div class="card-body">
+                <i
+                  class="bi-book mx-2"
+                  style="font-size: 3.8rem; color: var(--bs-dark)"
+                ></i>
+                <h5 class="card-title">Artigo Técnico</h5>
+                <p class="card-text">
+                  Parâmetros da qualidade do arroz para a indústria
+                </p>
+                <br />
+                <a
+                  href="https://www.linkedin.com/pulse/par%C3%A2metros-da-qualidade-do-arroz-para-ind%C3%BAstria-nathan-vanier/"
+                  class="btn btn-primary"
+                  >Ler mais</a
+                >
+              </div>
+            </div>
+          </div>
+          <!-- <div class="col-sm-12 col-md-6 col-lg-4 col-card">
+            <div class="card">
+              <div class="card-body">
+                <i
+                  class="bi-book mx-2"
+                  style="font-size: 3.8rem; color: var(--bs-dark)"
+                ></i>
+                <h5 class="card-title">Artigo Científico</h5>
+                <p class="card-text">
+                  Quais são as implicações dos principais erros cometidos no
+                  armazenamento de grãos?
+                </p>
+                <br />
+                <a
+                  href="https://www.linkedin.com/feed/update/urn:li:activity:6960961619120070656/"
+                  class="btn btn-primary"
+                  >Ler mais</a
+                >
+              </div>
+            </div>
+          </div> -->
+          <div class="col-sm-12 col-md-6 col-lg-4 col-card">
+            <div class="card">
+              <div class="card-body">
+                <i
+                  class="bi-book mx-2"
+                  style="font-size: 3.8rem; color: var(--bs-dark)"
+                ></i>
+                <h5 class="card-title">Artigo Técnico</h5>
+                <p class="card-text">
+                  3 dicas importantes para todo produtor rural que pretende
+                  investir em armazém de grãos
+                </p>
+                <br />
+                <a
+                  href="https://www.linkedin.com/pulse/3-dicas-importantes-para-todo-produtor-rural-que-pretende-vanier/?trackingId=c%2BKPHZdQSxSnTwOk92mjXw%3D%3D"
+                  class="btn btn-primary"
+                  >Ler mais</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-4 col-card">
+            <div class="card">
+              <div class="card-body">
+                <i
+                  class="bi-book mx-2"
+                  style="font-size: 3.8rem; color: var(--bs-dark)"
+                ></i>
+                <h5 class="card-title">Artigo Técnico</h5>
+                <p class="card-text">
+                  5 falhas cruciais que prejudicam o sucesso na armazenagem de
+                  grãos
+                </p>
+                <br />
+                <a
+                  href="https://www.linkedin.com/pulse/5-falhas-cruciais-que-prejudicam-o-sucesso-na-de-gr%25C3%25A3os-nathan-vanier/?trackingId=wNlmSQgRTCiFkOR8xcf1Mg%3D%3D"
+                  class="btn btn-primary"
+                  >Ler mais</a
+                >
+              </div>
             </div>
           </div>
         </div>
-        <div class="col-sm-12 col-md-6 col-lg-4 col-card">
-          <div class="card">
-            <div class="card-body">
-              <i class="bi-book mx-2" style="font-size: 3.8rem; color: var(--bs-dark);"></i>
-              <h5 class="card-title">Artigo Científico</h5>
-              <p class="card-text">Cuidados para minimizar perdas no armazenamento de soja</p>
-              <br />
-              <a href="https://www.linkedin.com/pulse/cuidados-para-minimizar-perdas-armazenamento-de-soja-nathan-vanier%3FtrackingId=apvnfBaDT1qgNkQIUPk%252BJw%253D%253D/?trackingId=apvnfBaDT1qgNkQIUPk%2BJw%3D%3D"
-                class="btn btn-primary">Ler mais</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-12 col-md-6 col-lg-4 col-card">
-          <div class="card">
-            <div class="card-body">
-              <i class="bi-book mx-2" style="font-size: 3.8rem; color: var(--bs-dark);"></i>
-              <h5 class="card-title">Artigo Científico</h5>
-              <p class="card-text">Cuidados operacionais na parboilização de arroz</p>
-              <br />
-              <a href="https://www.linkedin.com/pulse/cuidados-operacionais-para-potencializar-resultados-na-nathan-vanier%3FtrackingId=c6b8ZhfvRie51IZ0OTnfJw%253D%253D/?trackingId=c6b8ZhfvRie51IZ0OTnfJw%3D%3D"
-                class="btn btn-primary">Ler mais</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-12 col-md-6 col-lg-4 col-card">
-          <div class="card">
-            <div class="card-body">
-              <i class="bi-book mx-2" style="font-size: 3.8rem; color: var(--bs-dark);"></i>
-              <h5 class="card-title">Artigo Científico</h5>
-              <p class="card-text">Armazenagem de grãos na fazenda</p>
-              <br />
-              <a href="https://www.linkedin.com/feed/update/urn:li:activity:6986321742839341056/"
-                class="btn btn-primary">Ler mais</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-12 col-md-6 col-lg-4 col-card">
-          <div class="card">
-            <div class="card-body">
-              <i class="bi-book mx-2" style="font-size: 3.8rem; color: var(--bs-dark);"></i>
-              <h5 class="card-title">Artigo Científico</h5>
-              <p class="card-text">PH, defeitos e ocorrência de micotoxinas em trigo</p>
-              <br />
-              <a href="https://www.linkedin.com/feed/update/urn:li:activity:6973633842804862976/"
-                class="btn btn-primary">Ler mais</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-12 col-md-6 col-lg-4 col-card">
-          <div class="card">
-            <div class="card-body">
-              <i class="bi-book mx-2" style="font-size: 3.8rem; color: var(--bs-dark);"></i>
-              <h5 class="card-title">Artigo Científico</h5>
-              <p class="card-text">Parâmetros da qualidade do arroz para a indústria</p>
-              <br />
-              <a href="https://www.linkedin.com/pulse/par%C3%A2metros-da-qualidade-do-arroz-para-ind%C3%BAstria-nathan-vanier/"
-                class="btn btn-primary">Ler mais</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-12 col-md-6 col-lg-4 col-card">
-          <div class="card">
-            <div class="card-body">
-              <i class="bi-book mx-2" style="font-size: 3.8rem; color: var(--bs-dark);"></i>
-              <h5 class="card-title">Artigo Científico</h5>
-              <p class="card-text">Quais são as implicações dos principais erros cometidos no armazenamento de grãos?
-              </p>
-              <br />
-              <a href="https://www.linkedin.com/feed/update/urn:li:activity:6960961619120070656/"
-                class="btn btn-primary">Ler mais</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-12 col-md-6 col-lg-4 col-card">
-          <div class="card">
-            <div class="card-body">
-              <i class="bi-book mx-2" style="font-size: 3.8rem; color: var(--bs-dark);"></i>
-              <h5 class="card-title">Artigo Científico</h5>
-              <p class="card-text">3 dicas importantes para todo produtor rural que pretende investir em armazém de
-                grãos</p>
-              <br />
-              <a href="https://www.linkedin.com/pulse/3-dicas-importantes-para-todo-produtor-rural-que-pretende-vanier/?trackingId=c%2BKPHZdQSxSnTwOk92mjXw%3D%3D"
-                class="btn btn-primary">Ler mais</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-12 col-md-6 col-lg-4 col-card">
-          <div class="card">
-            <div class="card-body">
-              <i class="bi-book mx-2" style="font-size: 3.8rem; color: var(--bs-dark);"></i>
-              <h5 class="card-title">Artigo Científico</h5>
-              <p class="card-text">5 falhas cruciais que prejudicam o sucesso na armazenagem de grãos</p>
-              <br />
-              <a href="https://www.linkedin.com/pulse/5-falhas-cruciais-que-prejudicam-o-sucesso-na-de-gr%25C3%25A3os-nathan-vanier/?trackingId=wNlmSQgRTCiFkOR8xcf1Mg%3D%3D"
-                class="btn btn-primary">Ler mais</a>
-            </div>
-          </div>
-        </div>
-
+        <a
+          href="https://linktr.ee/nathanvanier"
+          class="btn btn-outline-primary mt-5"
+          >Veja mais artigos</a
+        >
       </div>
-      <a href="https://linktr.ee/nathanvanier" class="btn btn-outline-primary mt-5">Veja mais artigos</a>
-    </div>
-  </section>
-  <!--  -->
-  <!-- FIM Conteudo -->
-  <!--  -->
+    </section>
+    <!--  -->
+    <!-- FIM Conteudo -->
+    <!--  -->
 
-  <!--  -->
-  <!-- INICIO FOOTER -->
-  <!--  -->
-  <footer class="bg-primary text-light pt-5 text-center">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-4">
-          <h5>Mapa do site</h5>
-          <ul>
-            <li><a class="link-light" href="#home">Inicio</a></li>
-            <li><a class="link-light" href="#sobre">Sobre</a></li>
-            <li><a class="link-light" href="#servicos">Serviços</a></li>
-            <li><a class="link-light" href="#clientes">Clientes</a></li>
-            <li><a class="link-light" href="#blog">Blog</a></li>
-          </ul>
-        </div>
+    <!--  -->
+    <!-- INICIO FOOTER -->
+    <!--  -->
+    <footer class="bg-primary text-light pt-5 text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <h5>Mapa do site</h5>
+            <ul>
+              <li><a class="link-light" href="#home">Início</a></li>
+              <li><a class="link-light" href="#sobre">Sobre</a></li>
+              <li><a class="link-light" href="#servicos">Serviços</a></li>
+              <li><a class="link-light" href="#clientes">Clientes</a></li>
+              <li><a class="link-light" href="#blog">Blog</a></li>
+            </ul>
+          </div>
 
-        <div id="contato" class="col-md-4">
-          <h5>Informações de Contato</h5>
-          <ul>
-            <li>nathanvanier@hotmail.com</li>
-            <li>+55 53 98117 5570</li>
-            <li>Pelotas, RS - Brazil</li>
-            <li class="d-flex justify-content-center">
-              <a href="https://www.instagram.com/nathan.vanier/"><i class="bi-instagram mx-2"
-                  style="font-size: 1.4rem; color: var(--bs-light);"></i></a>
-              <a href="https://br.linkedin.com/in/nathanvanier"><i class="bi-linkedin mx-2"
-                  style="font-size: 1.4rem; color: var(--bs-light);"></i></a>
-              <a href="https://www.youtube.com/channel/UC5ud4bZQ0lwcEdMedw7s-QQ"><i class="bi-youtube mx-2"
-                  style="font-size: 1.4rem; color: var(--bs-light);"></i></a>
-            </li>
-          </ul>
-        </div>
-        <div class="col-md-4 text-start">
-          <div class="mb-1">
-            <label for="exampleFormControlInput1" class="form-label">Email</label>
-            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+          <div id="contato" class="col-md-4">
+            <h5>Informações de Contato</h5>
+            <ul>
+              <li>nathanvanier@hotmail.com</li>
+              <li>+55 53 98117 5570</li>
+              <li>Rua Marcilio Dias, 2946, Sala 207</li>
+              <li>Pelotas, RS - Brazil</li>
+              <li>CEP 96020-480</li>
+              <li class="d-flex justify-content-center">
+                <a href="https://www.instagram.com/nathan.vanier/"
+                  ><i
+                    class="bi-instagram mx-2"
+                    style="font-size: 1.4rem; color: var(--bs-light)"
+                  ></i
+                ></a>
+                <a href="https://br.linkedin.com/in/nathanvanier"
+                  ><i
+                    class="bi-linkedin mx-2"
+                    style="font-size: 1.4rem; color: var(--bs-light)"
+                  ></i
+                ></a>
+                <a
+                  href="https://www.youtube.com/channel/UC5ud4bZQ0lwcEdMedw7s-QQ"
+                  ><i
+                    class="bi-youtube mx-2"
+                    style="font-size: 1.4rem; color: var(--bs-light)"
+                  ></i
+                ></a>
+              </li>
+            </ul>
           </div>
-          <div class="mb-2">
-            <label for="exampleFormControlTextarea1" class="form-label">Mensagem</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          <div class="col-md-4 text-start">
+            <div class="mb-1">
+              <label for="exampleFormControlInput1" class="form-label"
+                >Email</label
+              >
+              <input
+                type="email"
+                class="form-control"
+                id="exampleFormControlInput1"
+                placeholder="name@example.com"
+              />
+            </div>
+            <div class="mb-2">
+              <label for="exampleFormControlTextarea1" class="form-label"
+                >Mensagem</label
+              >
+              <textarea
+                class="form-control"
+                id="exampleFormControlTextarea1"
+                rows="3"
+              ></textarea>
+            </div>
+            <button type="button" class="btn btn-outline-light">Enviar</button>
           </div>
-          <button type="button" class="btn btn-outline-light">Enviar</button>
         </div>
       </div>
-    </div>
-    <div class="position-relative py-5">
-      <p class="my-0">Nathan Vanier @ 2023 todos os direitos reservados</p>
-      <span class="position-absolute bottom-0 end-0 me-2 mb-2">created by
-        <a href="https://linktr.ee/catuio"><img src="./img/catinho.png" style="filter: invert(100%)" width="64"
-            alt="" /></a></span>
-    </div>
-  </footer>
-  <!--  -->
-  <!-- FIM FOOTER -->
-  <!--  -->
-  <script type="module" src="./js/main.js"></script>
-</body>
-
+      <div class="position-relative py-5">
+        <p class="my-0">Nathan Vanier @ 2023 todos os direitos reservados</p>
+        <span class="position-absolute bottom-0 end-0 me-2 mb-2"
+          >created by
+          <a href="https://linktr.ee/catuio"
+            ><img
+              src="./img/catinho.png"
+              style="filter: invert(100%)"
+              width="64"
+              alt="" /></a
+        ></span>
+      </div>
+    </footer>
+    <!--  -->
+    <!-- FIM FOOTER -->
+    <!--  -->
+    <script type="module" src="./js/main.js"></script>
+  </body>
 </html>
